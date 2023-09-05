@@ -1,4 +1,3 @@
-import DashboardBox from "@/components/DashboardBox";
 import { Box, useMediaQuery } from "@mui/material";
 import Row1 from "./Row1";
 import Row2 from "./Row2";
@@ -75,10 +74,6 @@ const Dashboard = (props: Props) => {
     >
       <Row1 />
       <Row2 />
-      {/* <DashboardBox gridArea="g"></DashboardBox>
-      <DashboardBox gridArea="h"></DashboardBox>
-      <DashboardBox gridArea="i"></DashboardBox>
-      <DashboardBox gridArea="j"></DashboardBox> */}
       <Row3 />
     </Box>
   );

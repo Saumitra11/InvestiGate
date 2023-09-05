@@ -1,0 +1,41 @@
+# Ignore logs and temporary files
+logs/
+temp/
+
+# Ignore configuration files
+config/
+
+# Ignore database files
+db.sqlite
+db.json
+
+# Ignore environment-specific files
+.env
+
+# Ignore node modules (for Node.js projects)
+node_modules/
+
+# Ignore package-lock.json (for Node.js projects)
+package-lock.json
+
+# Ignore virtual environment folders (for Python projects)
+venv/
+__pycache__/
+
+# Ignore compiled binary files (for compiled languages like C++)
+*.out
+*.exe
+
+# Ignore generated documentation
+docs/
+
+# Ignore backup files
+*.bak
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore system and hidden files
+.DS_Store
+Thumbs.db
